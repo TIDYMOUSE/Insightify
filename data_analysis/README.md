@@ -25,3 +25,10 @@ Follow these steps to set up the project:
     pip install -r requirements.txt
     ```
 
+    ## Datasets
+
+    The following datasets have been utilized in this project:
+
+    1. [Retail Dataset](https://www.kaggle.com/datasets/abdurraziq01/retail-data)
+
+    2. [Walmart Dataset](https://www.kaggle.com/datasets/saadabdurrazzaq/walmart-retail-data)
