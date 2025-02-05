@@ -11,6 +11,49 @@ Insightify is an Affordable, AI-powered retail analytics tool designed to optimi
 - Manual as well as Hypothesis generation and testing
 - Marketing strategies and campaign suggestions
 
+# **Customer Data Analysis Workflow**
+
+## **1️⃣ Data Collection & Preprocessing**
+- Import data from databases
+- The data must consist of attributes such as:
+  - **Customer Information**: `CustomerID`, `Age`, `Gender`, `Income`, `Region`, `Zip Code`
+  - **Transaction Details**: `OrderID`, `Order Date`, `Payment Method`, `Order Priority`, `Sales`, `Profit`, `Discount applied`, `Shipping Cost`
+  - **Store Details**: `Location`, `Zip Code`, `Foot Traffic`
+  - **Product Data**: `ProductID`, `Product Name`, `Product Category`, `Unit Price`, `Profit`, `Stock available`
+- Handle missing values, duplicates, and inconsistencies
+- Normalize, encode, and engineer new features 
+
+## **2️⃣ Exploratory Data Analysis (EDA)**
+- Compute descriptive statistics (mean, variance, correlations)  
+- Visualize patterns using histograms, boxplots, and scatterplots  
+- Detect and handle outliers  
+
+## **3️⃣ Customer Segmentation & Clustering**
+- Apply **K-Means, DBSCAN, Hierarchical Clustering**  
+- Use **PCA** for dimensionality reduction  
+- Define customer segments based on behavioral patterns  
+
+## **4️⃣ Statistical Analysis & Hypothesis Testing**
+- Conduct **ANOVA & T-tests** for group comparisons  
+- Use **Regression Analysis** to identify trends  
+- Perform **Crosstab & Factor Analysis** for categorical dependencies  
+
+## **5️⃣ Predictive Analytics & Machine Learning**
+- Apply **Market Basket Analysis (Apriori Algorithm)**  
+- Forecast trends using **Time Series Analysis**  
+- Integrate LLMs to generate tailored customer strategies based on the analyzed data
+
+## **6️⃣ Business Strategy Optimization**
+- Optimize pricing models using historical data  
+- Personalize marketing through RFM segmentation  
+- Implement A/B testing for data-driven decision-making  
+
+## **7️⃣ Visualization & Reporting**
+- Build **interactive dashboards** (Plotly, Seaborn)  
+- Generate **automated reports** with key findings  
+- Present insights for **stakeholder decision-making**  
+
+
 ## Project Checklist
 
 ### **Statistical & Analytical Techniques**
@@ -49,6 +92,11 @@ Insightify is an Affordable, AI-powered retail analytics tool designed to optimi
 - [ ] Realtime analysis and strategies performance
 
 ## Snapshots
+![Anova test for profit across income groups](images/Anova_result.png)
+![Customer Age distribution](images/customer_age_distribution.png)
+![Sales & Profit by Product Category](images/sales_profit_by_category.png)
+![Monthly Sales and Profit Trends](images/monthly_sales_profit_trends.png)
+![Monthly Profit Trends over the years](images/monthly_trends.png.png)
 
 ## Tech Stack
 
